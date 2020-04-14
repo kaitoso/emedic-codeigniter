@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "emedic";
+  src:url("fonts/emedic.eot");
+  src:url("fonts/emedic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/emedic.woff") format("woff"),
+    url("fonts/emedic.ttf") format("truetype"),
+    url("fonts/emedic.svg#emedic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "emedic" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="medicon-"]:before,
+[class*=" medicon-"]:before {
+  font-family: "emedic" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.medicon-24-hours-medical-assistance-by-phone:before {
+  content: "\61";
+}
+.medicon-ambulance9:before {
+  content: "\62";
+}
+.medicon-balls:before {
+  content: "\63";
+}
+.medicon-bandaid:before {
+  content: "\64";
+}
+.medicon-call-telephone-auricular-in-circular-button:before {
+  content: "\65";
+}
+.medicon-chromosome:before {
+  content: "\66";
+}
+.medicon-drops1:before {
+  content: "\67";
+}
+.medicon-male100:before {
+  content: "\68";
+}
+.medicon-medical:before {
+  content: "\69";
+}
+.medicon-medical-1:before {
+  content: "\6a";
+}
+.medicon-medical14:before {
+  content: "\6b";
+}
+.medicon-medical-1-1:before {
+  content: "\6c";
+}
+.medicon-medical-2:before {
+  content: "\6d";
+}
+.medicon-medical-3:before {
+  content: "\6e";
+}
+.medicon-medicine13:before {
+  content: "\6f";
+}
+.medicon-medicine14:before {
+  content: "\70";
+}
+.medicon-medicine15:before {
+  content: "\71";
+}
+.medicon-medicine16:before {
+  content: "\72";
+}
+.medicon-medicine17:before {
+  content: "\73";
+}
+.medicon-pill:before {
+  content: "\74";
+}
+.medicon-pulse:before {
+  content: "\75";
+}
+.medicon-syringe6:before {
+  content: "\76";
+}
+.medicon-teeth1:before {
+  content: "\77";
+}
+.medicon-thermometer23:before {
+  content: "\78";
+}
+.medicon-user-md:before {
+  content: "\79";
+}
+.medicon-person:before {
+  content: "\7a";
+}
+.medicon-hospital:before {
+  content: "\41";
+}
+.medicon-nurse-user:before {
+  content: "\42";
+}
+.medicon-calendar:before {
+  content: "\43";
+}
+.medicon-paciente:before {
+  content: "\44";
+}
+.medicon-agenda-hora:before {
+  content: "\45";
+}
+.medicon-home:before {
+  content: "\46";
+}
+.medicon-cog:before {
+  content: "\47";
+}

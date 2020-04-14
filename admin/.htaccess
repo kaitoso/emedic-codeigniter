@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|img|plantilla|plantilla2|assets)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+#codigo para redireccionar HTTPS
+#RewriteEngine On
+#RewriteCond %{ENV:HTTPS} !on [NC]
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://e-medic.cl/emedic/ [R=301,L,NE]

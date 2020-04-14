@@ -1,0 +1,2 @@
+rut_paciente,fecha,hora,pagado,comentario,observacion,cancelada,pendiente,finalizada,espera,consulta,espera_examen,tipo
+192-12,12/12/2017,08:30,1,sin,sin,0,1,0,0,0,0,normal
