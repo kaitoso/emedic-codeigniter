@@ -5,7 +5,7 @@ date_default_timezone_set('America/Mexico_City');
 /**
  * Usuario_model class.
  * @Ing.LuisCobian
- 	@Ing.PedroFernandez
+ *	@Ing.PedroFernandez
  * @extends CI_Model usuario y enfermeras
  */
 class Usuario_model extends CI_Model {

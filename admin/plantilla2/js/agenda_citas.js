@@ -399,16 +399,19 @@
 		        },
 		        success: function(response) {
 		            carga_pacientes();
-
+                    console.log("la respuesta es", response);
 		            var horarios_dia = '';
 		            var hora_inicio_str = 0,
 		                hora_fin_str = 0;
 		            var rango_minutos = 15;
 		            if (response != 0) {
-		                var obj = JSON.parse(response);
-		                var hora_cita = 0;
-		                hora_inicio_str = obj[0].horarios.hora_inicio.split(':');
-		                hora_fin_str = obj[0].horarios.hora_fin.split(':');
+						var obj = JSON.parse(response);
+						console.log(obj);
+						var hora_cita = 0;
+						var horas_inicio = JSON.parse(obj[0].horarios.hora_inicio);
+						var horas_fin = JSON.parse(obj[0].horarios.hora_fin);
+		                hora_inicio_str = horas_inicio.Do.horaEntradaDom.split(':');
+		                hora_fin_str = horas_fin.Do.horaEntradaDom.split(':');
 		                var hora_agendada = '',
 		                    comentario_cita = '',
 		                    tipo_cita = '',
@@ -431,7 +434,8 @@
 		                        arregloComentarios = comentario_cita.split(separador, i + 1);
 		                    }
 		                } else  {
-		                    arregloHoras = 'HH:MM';
+							arregloHoras = 'HH:MM';
+							console.log("gg")
 		                }
 
 		                for (var h = hora_inicio_str[0]; h <= hora_fin_str[0]; h++) {

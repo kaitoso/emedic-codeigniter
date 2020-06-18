@@ -561,9 +561,11 @@ class Agenda extends CI_Controller {
 		$result = $this->db->get_where('horarios', array('id_medico' => $id_medico));
         $data = array('horarios' => $result);
         $semana_laboral = $data['horarios']->result()[0]->descanzo_semana;
-        $dias = explode(",", $semana_laboral);
+		$dias = explode(",", $semana_laboral);
+		$dias_totales = ['Do','Lu','Ma','Mi','Ju','Vi','Sa'];
+		$diasLaboralesTotales = array_diff($dias_totales,$dias); //compara los dos arreglos de dias y devuelve los que no son laborales
         $disabled='[';
-        foreach ($dias as $key) {
+        foreach ($diasLaboralesTotales as $key) {
         	if ($key =="Do") {
         		$disabled = $disabled.'0,';
         	}elseif($key=="Lu") {

@@ -77,7 +77,7 @@
 									<li><a href="<?php echo base_url('Usuario/adm_clinicas') ?>" data-toggle="ajax">Administrar Clinicas</a></li>
 								 <?php } ?>
 								 <?php if ($info['id_grupo']==4 || $info['id_grupo']==3 || $info['id_grupo']==2) { ?>
-									<li><a href="<?php echo base_url('Usuario/horarios') ?>" data-toggle="ajax">Roles de medicos</a></li>
+									<li><a href="<?php echo base_url('Usuario/horarios') ?>" data-toggle="ajax">Horarios de medicos</a></li>
 								 <?php } ?>
 								 <?php if ($info['id_grupo']==4 || $info['id_grupo']==3 ) { ?>
 								<li><a href="<?php echo base_url('Usuario/informa_clinica') ?>" data-toggle="ajax">Clínica</a></li>

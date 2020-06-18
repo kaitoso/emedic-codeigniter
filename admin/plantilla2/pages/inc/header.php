@@ -13,7 +13,7 @@
 	    <link rel="icon" href="../favicon.ico"/>
 	    <link rel="shortcut" href="../favicon.ico"  type="image/x-icon">
 		
-		<!-- ================== BEGIN BASE CSS STYLE ================== -->
+		<!-- ================== BEGIN BASE CSS STYLE header dentro de plantilla 2 pages//inc ================== -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 		<link href="../assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
@@ -24,6 +24,7 @@
 		<link href="../assets/css/style.css" rel="stylesheet" />
 		<link href="../assets/css/style-responsive.min.css" rel="stylesheet" />
 		<link href="../assets/css/theme/default.css" rel="stylesheet" id="theme" />
+		<link href="<?php echo base_url() ?>plantilla2/scheduler/codebase/dhtmlxscheduler.css" rel="stylesheet" />
 		<!-- ================== END BASE CSS STYLE ================== -->
 		
 		<!-- ================== BEGIN BASE JS ================== -->

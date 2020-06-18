@@ -13,7 +13,7 @@
 	    <link rel="icon" href="<?php echo base_url() ?>plantilla2/favicon.ico"/>
 	    <link rel="shortcut" href="<?php echo base_url() ?>plantilla2/favicon.ico"  type="image/x-icon">
 		
-		<!-- ================== BEGIN BASE CSS STYLE ================== -->
+		<!-- ================== BEGIN BASE CSS STYLE header  en la carpeta inc ================== -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 		<link href="<?php echo base_url() ?>plantilla2/assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
@@ -27,12 +27,17 @@
 
 		<link href="<?php echo base_url() ?>plantilla2/assets/plugins/DataTables/media/css/dataTables.bootstrap.min.css" rel="stylesheet" />
 		<link href="<?php echo base_url() ?>plantilla2/assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css" rel="stylesheet" />
+	
+		
 		<!-- ================== END BASE CSS STYLE ================== -->
 		
 		<!-- ================== BEGIN BASE JS ================== -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="<?php echo base_url() ?>plantilla2/assets/plugins/pace/pace.min.js"></script>
 		<script src="<?php echo base_url() ?>plantilla2/assets/js/sweetalert.min.js"></script>
+	
+		
+		
 		<!-- ================== END BASE JS ================== -->
 	</head>
 	<body>
